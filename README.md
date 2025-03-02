@@ -11,5 +11,5 @@ This repo is a playground for:
 ## 🔥 **Why?**  
 Because **copy-pasting** is the first step toward **understanding and improving**. We study great code, modify it, and become better developers. Plus, it’s fun.  
 
-## ⚠️ ** Disclaimer?**  
+## ⚠️ ** Disclaimer**  
 This repo is for educational purposes only. Always check licenses, credit original creators, and don’t just copy—remix and improve!
