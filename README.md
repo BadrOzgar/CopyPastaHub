@@ -11,5 +11,5 @@ This repo is a playground for:
 ## 🔥 **Why?**  
 Because **copy-pasting** is the first step toward **understanding and improving**. We study great code, modify it, and become better developers. Plus, it’s fun.  
 
-#⚠️ Disclaimer
+## ⚠️ ** Disclaimer?**  
 This is properly formatted for GitHub Markdown with **bold styling** where it makes sense. Let me know if you want any changes! 🚀
