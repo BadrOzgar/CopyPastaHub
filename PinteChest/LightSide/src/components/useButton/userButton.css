@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   gap: 16px;
+  position: relative;
 }
 
 .userButton img {
@@ -22,7 +23,36 @@
   padding: 16px;
   border-radius: 32px;
 }
+.userOptions {
+  position: absolute;
+  top: 125%;
+  right: 0;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  font-size: smaller;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.384);
+}
 
+.userOption {
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  color: black;
+}
+.userOption:hover {
+  background-color: #e7e7e768;
+  color: rgba(0, 0, 0, 0.325);
+}
 .loginLink:hover {
   background: #f1f1f1;
+}
+
+@media (max-width: 475px) {
+  .userButton {
+    display: none;
+  }
 }
