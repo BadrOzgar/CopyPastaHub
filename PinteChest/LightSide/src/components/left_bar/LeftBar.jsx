@@ -1,5 +1,6 @@
 import React from "react";
 import "./LeftBar.css";
+import Image from "../Image/image";
 
 const LeftBar = () => {
   const menuItems = [
@@ -15,7 +16,7 @@ const LeftBar = () => {
       <div className="menuIcons">
         {menuItems.map((item, index) => (
           <a key={index} href={item.route} className="menuIcon">
-            <img src={item.src} alt={item.alt} />
+            <Image path={item.src} alt={item.alt} />
           </a>
         ))}
       </div>
