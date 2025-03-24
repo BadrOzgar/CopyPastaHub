@@ -2,6 +2,7 @@ import "./profilePage.css";
 import Image from "../../components/image/image";
 import { useState } from "react";
 import Feed from "../../components/feed/Feed";
+import Boards from "../../components/boards/Boards";
 
 const ProfilePage = () => {
   const [type, setType] = useState("saved");
@@ -39,7 +40,7 @@ const ProfilePage = () => {
           Saved
         </span>
       </div>
-      {type === "created" ? <Feed /> : ""}
+      {type === "created" ? <Feed /> : <Boards />}
     </div>
   );
 };
